@@ -29,7 +29,7 @@ module Nifty
       end
 
       def to_nifty_json(options = {})
-        to_json_hash(options).to_json
+        to_nifty_json_hash(options).to_json
       end
             
       module ClassMethods
